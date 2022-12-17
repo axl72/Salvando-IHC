@@ -1,0 +1,40 @@
+.evento *{
+    padding: 5px;
+    margin: 5px;
+}
+
+.evento{
+    border: solid 1px #000;
+    margin: 10px;
+}
+
+.evento button{
+    background-image: linear-gradient(to left,#051b58, rgb(67, 9, 121), rgb(112, 16, 104), #e00c49);
+    border-radius: 9px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 20px;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+}
+
+.evento h3{
+    color: #e00c49;
+}
+
+.img-evento{
+    height: 70%;
+    width: 70%;
+    border-radius: 18px 18px 0px 0px;
+}
+
+
+.circular{
+    border-radius:  50%;
+    width: 100px;
+    height:100px;
+}
