@@ -1,0 +1,192 @@
+
+
+.container-nosotros {
+    padding: 24px 12px;
+    align-items: center;
+    justify-items: center;
+}
+
+.titulo-nosotros {
+    color: #021b5a;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: start;
+}
+
+.nosotros-imagen {
+    display: block;
+    width: 100%!important;
+    height: 80%!important;
+}
+
+.rf-our {
+    position: relative;
+    margin-top: 24px;
+}
+
+.text-center {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.content-our {
+    width: 97%;
+    margin: auto;
+}
+
+.content-our,
+.content-our-prop {
+    border-radius: 19px;
+    padding: 20px;
+    box-shadow: -4px 5px 24px rgb(0 0 0 / 16%);
+}
+
+.content-our-width {
+    max-width: 100%;
+}
+
+.flex-column {
+    flex-direction: column!important;
+}
+
+.content-our p:first-child {
+    color: #4e5370;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 650;
+}
+
+.content-our p:last-child {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.content-our-prop p {
+    color: #4e5370;
+}
+
+.content-our-prop p span {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 650;
+}
+
+.numbers {
+    margin-top: 12px;
+}
+
+.numbers h2 {
+    color: #021b5a;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 48px 0;
+}
+
+.card-miembro img {
+    height: 354px;
+}
+
+.card-miembro .card-title {
+    color: #021b5a;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.card-miembro .card-text {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-top {
+    background-color: #F4D03F;
+    display: none;
+    padding: 0 50px;
+}
+
+.footer-top img {
+    margin: 20px 0;
+}
+
+.footer-top .info {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.infor-part {
+    display: block;
+    line-height: 0;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.info .infor-part div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.infor-part h4 {
+    color: #021b5a;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.infor-part p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.info .infor-part div p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-bottom {
+    background-color: #021b5a;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+@media (min-width: 700px) {
+
+    .titulo-nosotros {
+        font-size: 40px;
+        margin-bottom: 42px;
+    }
+
+    .content-our-prop {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (min-width:1070px) {
+
+    .footer-top {
+        display: flex;
+    }
+
+    .footer-bottom {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1350px) {
+    .container {
+        max-width: 1300px;
+    }
+}
