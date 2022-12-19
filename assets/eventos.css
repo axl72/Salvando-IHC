@@ -1,11 +1,42 @@
-.evento *{
+html{
+    background-color: #647b9c;
+}
+
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1800px;
+    /* border: thin solid black; */
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container *{
+    box-sizing: border-box;
+}
+
+.container-info *{
     padding: 5px;
     margin: 5px;
+    
+}
+
+.container-info p{
+    color: #001c59;
+}
+
+.container-info h4{
+    color: #2d3954;
 }
 
 .evento{
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     margin: 10px;
+    width: 500px;
+    border-radius: 18px;
+    background-color: #fff;
 }
 
 .evento button{
@@ -19,17 +50,35 @@
     padding: 12px;
     text-align: center;
     border: none;
-    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 420px;
+    
+   
+}
+
+.evento button:hover{
+    background-image: linear-gradient(to left, rgb(67, 9, 121), rgb(112, 16, 104), #e00c49);
+    cursor: pointer;
 }
 
 .evento h3{
     color: #e00c49;
+    font-size: 30px;
 }
 
 .img-evento{
-    height: 70%;
-    width: 70%;
+    width: 100%;
     border-radius: 18px 18px 0px 0px;
+    display: block;
+    
+
+}
+
+.container-img-evento{
+    width: 100%;
 }
 
 
@@ -37,4 +86,42 @@
     border-radius:  50%;
     width: 100px;
     height:100px;
+}
+
+.inline{
+    display: inline;
+    background-color: #f6a52e;
+}
+
+.container-docente{
+    display: inline;
+    width: 10px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+
+}
+
+.info-docente{
+    position: relative;
+    left: 140px;
+    bottom: 120px;
+    font-size: 30px;
+}
+
+.text-event,
+.name-event
+{
+
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.date {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
 }
