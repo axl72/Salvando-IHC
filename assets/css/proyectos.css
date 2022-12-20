@@ -1,20 +1,3 @@
-.container-title-button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sec-heading {
-    margin-bottom: 0;
-}
-
-.sec-heading h2 {
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 1;
-    color: #021b5a;
-    font-family: Montserrat,sans-serif;
-}
 
 .single-items {
     padding: 0 10px;

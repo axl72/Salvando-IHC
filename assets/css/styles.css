@@ -1,5 +1,27 @@
 
+.container-title-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.sec-heading {
+    margin-bottom: 0;
+}
+
+.sec-heading h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #021b5a;
+    font-family: Montserrat,sans-serif;
+}
+
+.sec-heading div img {
+    padding: 20px 0 10px;
+    display: flex;
+    align-items: center;
+}
 
 .content {
     position: relative;
@@ -203,4 +225,39 @@ nav a {
     .navigation {
         height: 48px;
     }
+}
+
+.curso {
+    width: 90%;
+    margin: 0 0 0 54px;
+}
+
+.content-about {
+    padding: 0 25px;
+}
+
+.content-about h3 {
+    color: #fab710;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.content-about p {
+    color: #4d5563;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.content-about ul {
+    list-style: none;
+}
+
+.content-about ul li {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1; 
 }

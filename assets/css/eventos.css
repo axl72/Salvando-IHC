@@ -40,7 +40,7 @@ html{
 }
 
 .evento button{
-    background-image: linear-gradient(to left,#051b58, rgb(67, 9, 121), rgb(112, 16, 104), #e00c49);
+    background-color: #fab710;
     border-radius: 9px;
     color: #fff;
     font-size: 18px;
@@ -60,7 +60,7 @@ html{
 }
 
 .evento button:hover{
-    background-image: linear-gradient(to left, rgb(67, 9, 121), rgb(112, 16, 104), #e00c49);
+    background-color: #F3D25A;
     cursor: pointer;
 }
 
